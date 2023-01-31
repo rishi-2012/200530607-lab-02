@@ -1,0 +1,75 @@
+
+/* Typography */ 
+
+html {
+    font-family: 'Fira Sans', sans-serif; 
+    background-color: cornflowerblue;
+}
+
+h1, h2, h3 {
+    font-weight: 600; 
+}
+
+p {
+    font-weight: 300; 
+    line-height: 18px; 
+}
+
+
+/* Layout */ 
+
+.wrapper {
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+.flex {
+    display:flex;
+    gap: 32px;  
+}
+
+#features > div {
+    flex: 1; 
+}
+
+img {
+    max-height: 300px; 
+    width: auto; 
+}
+
+main section {
+    padding: 60px 20px 0 20px; 
+}
+
+/*zebra */
+table tr:nth-child(odd){
+    background-color: gray;
+}
+.rd:hover{
+    background-color: red;
+    color: skyblue;
+}
+ul,
+li{
+    font-size: medium;
+    font-style: italic;
+    color: brown;
+}
+ol{
+    list-style-type:lower-greek;
+}
+ul{
+    list-style-type: lower-roman;
+    font-style: italic;
+}
+.rd {background-color: navy; 
+    color:orchid;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor:pointer;
+}
+a:hover{
+    color: red;
+    text-decoration:none;
+}
